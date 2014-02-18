@@ -1,6 +1,6 @@
 {
   "name": "hydrogen-boosted-engine",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An engine for the batmobile!",
   "main": "engine.js",
   "scripts": {

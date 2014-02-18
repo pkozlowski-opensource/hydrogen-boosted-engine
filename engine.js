@@ -1,7 +1,11 @@
 export class Engine {
 
+  constructor(logger) {
+    this.logger = logger;
+  }
+
   start() {
-    console.log('Starting hydrogen-boosted engine!');
+    this.logger.info('Starting hydrogen-boosted engine!');
   }
 
 }
