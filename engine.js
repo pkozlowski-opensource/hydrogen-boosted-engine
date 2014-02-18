@@ -1,7 +1,9 @@
+import {Diary} from 'diary';
+
 export class Engine {
 
-  constructor(logger) {
-    this.logger = logger;
+  constructor() {
+    this.logger = Diary.logger('engine');;
   }
 
   start() {
